@@ -1,29 +1,30 @@
-package novemberlastweek;
+package novemberlastweek.Nov23;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class NovemberLastWeek {
+public class CoditionalARRAYlist {
 
     public static void main(String[] args) {
 
         //  ArrayList
 //        List<Employee> li = new ArrayList<Employee>();    //we can do it by "import"
+        
+ArrayList<Employee> li = new ArrayList<>();
 
-        ArrayList<Employee> li = new ArrayList<Employee>();
 
-        Employee emp1 = new Employee("Salman", 25);
-        Employee emp2 = new Employee("Ahamed", 30);
-        Employee emp3 = new Employee("Zaman", 35);
-        Employee emp4 = new Employee("Klam", 32);
-        Employee emp5 = new Employee("Nazmul", 27);
-        Employee emp6 = new Employee("Rafayet", 30);
-        Employee emp7 = new Employee("Babu", 10);
-        Employee emp9 = new Employee("Seikh", 55);
-        Employee emp10 = new Employee("Laile", 60);
-        Employee emp11 = new Employee("Mojnu", 74);
-        Employee emp12 = new Employee("Chengish Khan", 30);
-
+        Employee emp1 = new Employee("Salman", 25, "A");
+        Employee emp2 = new Employee("Ahamed", 30 , "A");
+        Employee emp3 = new Employee("Zaman", 35, "A");
+        Employee emp4 = new Employee("Klam", 32, "A");
+        Employee emp5 = new Employee("Nazmul", 27, "A");
+        Employee emp6 = new Employee("Rafayet", 30, "A");
+        Employee emp7 = new Employee("Babu", 10, "A");
+        Employee emp9 = new Employee("Seikh", 55, "A");
+        Employee emp10 = new Employee("Laile", 60, "A");
+        Employee emp11 = new Employee("Mojnu", 74, "A");
+        Employee emp12 = new Employee("Chengish Khan", 30, "A");
+//
         li.add(emp1);
         li.add(emp2);
         li.add(emp3);
@@ -40,22 +41,21 @@ public class NovemberLastWeek {
         /* 10-25 or 30 = name  A
         31-40 or 27 or 43-55 = name b
         other c */
-        
-        
-//        
-//        for (Employee employee : li) {
-//
-//            if ((employee.getAge() >= 10 && employee.getAge() <= 25) || employee.getAge() == 30) {
-//
-//                employee.setName("A");
-//            } else if ((employee.getAge() >= 31 && employee.getAge() <= 40) || employee.getAge() == 30 || (employee.getAge() >= 43 && employee.getAge() <= 55)) {
-//                employee.setName("B");
-//            } else {
-//                employee.setName("C");
-//            };
+        for (Employee employee : li) {
+
+            if ((employee.getAge() >= 10 && employee.getAge() <= 25) || employee.getAge() == 30) {
+
+                employee.setSub("JAVA");
+            } else if ((employee.getAge() >= 31 && employee.getAge() <= 40) || employee.getAge() == 30 || (employee.getAge() >= 43 && employee.getAge() <= 55)) {
+                employee.setSub("PHP");
+            } else {
+                employee.setSub("C#");
+            };
 //            System.out.println(employee.toString());
-//            System.out.println(" ");
-//        }
+            System.out.println(employee.toString());
+
+            System.out.println(" ");
+        }
 
         //another way to add in OBJECT  
 //    li.add(new Employee("Babu", 47));    
@@ -67,11 +67,7 @@ public class NovemberLastWeek {
 //        System.out.println("another---" + li.get(4));
 //        System.out.println("another---" + li.get(4).getName());
 //        System.out.println("another---" + li.get(4).getAge());
-
-
-
-        
-
+        /*
 //for each
 
 
@@ -83,7 +79,7 @@ for (Employee employee : li) {
             System.out.println("only Age---" + employee.getAge());
 
         }
-         
+         */
 //for loop
 //
 //        for (int i = 0; i <li.size(); i++) {
