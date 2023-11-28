@@ -15,7 +15,7 @@ import java.io.IOException;
  *
  * @author B-5
  */
-public class io {
+public class BufferedIO {
 
     public static void main(String[] args) throws IOException {
 
