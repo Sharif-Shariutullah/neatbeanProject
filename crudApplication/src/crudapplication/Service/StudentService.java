@@ -1,14 +1,21 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package crudapplication.Service;
 
-/**
- *
- * @author B-5
- */
-public class StudentService {
+import crudapplication.Model.Student;
+import java.util.List;
+
+public interface StudentService {
+
+//    Student addStudent(Student student);
     
+    
+    void addStudent(Student student);
+
+    Student getStudentByID(Long id);
+
+    void updateStudent();
+
+    List<Student> getll();
+
+    long deleteStudent(Long id);
+
 }
