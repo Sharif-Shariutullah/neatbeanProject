@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<object>
+<data>
+	<ID_Nation>01000US </ID_Nation>
+	<Nation> United States </Nation>
+	<ID_Year>2021 </ID_Year>
+	<Year>2021 </Year>
+	<Population>329725481 </Population>
+	<Slug_Nation> united-states</Slug_Nation>
+</data>
+<data>
+	<ID_Nation>01000US </ID_Nation>
+	<Nation> United States </Nation>
+	<ID_Year>2020 </ID_Year>
+	<Year>2020 </Year>
+	<Population>326569308 </Population>
+	<Slug_Nation> united-states</Slug_Nation>
+</data>
+<data>
+	<ID_Nation>01000US </ID_Nation>
+	<Nation> United States </Nation>
+	<ID_Year>2019 </ID_Year>
+	<Year>2019 </Year>
+	<Population>324697795 </Population>
+	<Slug_Nation> united-states</Slug_Nation>
+</data>
+</object>
+
