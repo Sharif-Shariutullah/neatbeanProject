@@ -1,6 +1,6 @@
 <%-- 
-    Document   : index
-    Created on : Dec 27, 2023, 5:25:48 PM
+    Document   : value
+    Created on : Dec 27, 2023, 6:42:09 PM
     Author     : B-5
 --%>
 
@@ -12,6 +12,15 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+       
+        ${name}
+        <br>
+        ${address}
+        <br>
+        ${dob}
+        <br>
+        ${subject}
+        <br>
+        
     </body>
 </html>
