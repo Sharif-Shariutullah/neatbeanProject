@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    
+    <h:body>
+        Hello <b>Sharif</b>,   <br>we are from Facelets, Now fill-up this following form </br>
+      <br/> <br/> <br/>
+        
+        
+        <h:form>
+        <h:outputLabel for="firstName">First Name:</h:outputLabel>
+        <h:inputText id="firstName" value="#{main.stu.firstName}" required="true" />
+
+        <br/>
+
+        <h:outputLabel for="lastName">Last Name:</h:outputLabel>
+        <h:inputText id="lastName" value="#{main.stu.lastName}" required="true" />
+
+        <br/>
+
+        <h:outputLabel for="email">Email:</h:outputLabel>
+        <h:inputText id="email" value="#{main.stu.email}" required="true">
+           
+        </h:inputText>
+        <h:message for="email" />
+
+        <br/>
+
+        <h:outputLabel for="phoneNumber">Phone Number:</h:outputLabel>
+        <h:inputText id="phoneNumber" value="#{main.stu.phoneNumber}" required="true" />
+
+        <br/>
+
+        <h:commandButton value="Add" action="#{main.addData()}" />
+
+    </h:form>
+        
+        
+        
+    </h:body>
+    
+    
+</html>
+
